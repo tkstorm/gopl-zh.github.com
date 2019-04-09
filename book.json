@@ -1,19 +1,44 @@
 {
-	"gitbook": "3.x",
-	"title": "Go语言圣经",
-	"description": "<The Go Programming Language>中文版",
-	"language": "zh-hans",
-	"structure": {
-		"readme": "preface.md"
-	},
-	"links": {
-		"sidebar": {
-			"Home": "https://tkstorm.com"
-		}
-	},
-	"plugins": [
-		"katex",
-		"-search",
-		"search-pro"
-	]
+  "gitbook": "3.x",
+  "title": "Go语言圣经",
+  "description": "<The Go Programming Language>中文版",
+  "language": "zh-hans",
+  "structure": {
+    "readme": "preface.md"
+  },
+  "links": {
+    "sidebar": {
+      "https://tkstorm.com": "https://tkstorm.com"
+    }
+  },
+  "styles": {
+    "website": "styles/website.css"
+  },
+  "plugins": [
+    "theme-comscore",
+    "splitter",
+    "prism",
+    "-highlight",
+    "-sharing",
+    "-search",
+    "katex",
+    "-lunr",
+    "search-plus",
+    "emphasize",
+    "multipart"
+  ],
+  "pluginsConfig": {
+    "prism": {
+      "lang": {
+        "flow": "typescript"
+      },
+      "css": [
+        "prismjs/themes/prism-solarizedlight.css"
+      ],
+      "ignore": [
+        "mermaid",
+        "eval-js"
+      ]
+    }
+  }
 }

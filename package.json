@@ -1,0 +1,31 @@
+{
+  "name": "gopl-zh",
+  "version": "1.0.0",
+  "description": "gopl-zh npm packages",
+  "main": "index.js",
+  "dependencies": {
+    "gitbook-plugin-emphasize": "^1.1.0",
+    "gitbook-plugin-folding-chapters": "^0.0.9",
+    "gitbook-plugin-katex": "^1.1.4",
+    "gitbook-plugin-multipart": "^0.3.0",
+    "gitbook-plugin-prism": "^2.4.0",
+    "gitbook-plugin-search-plus": "^1.0.3",
+    "gitbook-plugin-splitter": "^0.0.8",
+    "gitbook-plugin-theme-comscore": "^0.0.3",
+    "gitbook-theme-comscore": "^0.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tkstorm/gopl-zh.github.com.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tkstorm/gopl-zh.github.com/issues"
+  },
+  "homepage": "https://github.com/tkstorm/gopl-zh.github.com#readme"
+}
