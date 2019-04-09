@@ -6,8 +6,14 @@
 	"structure": {
 		"readme": "preface.md"
 	},
+	"links": {
+		"sidebar": {
+			"Home": "https://tkstorm.com"
+		}
+	},
 	"plugins": [
 		"katex",
-		"-search"
+		"-search",
+		"search-pro"
 	]
 }
